@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* nav bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* headings */
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* title */
+
+.download-btns {
+  margin: 0% 5% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: azure;
+  padding: 3% 15% 7%;
+}
+
+.title-box {
+  position: relative;
+}
+.title-image {
+  transform: rotate(15deg);
+  width: 70%;
+  position: absolute;
+  right: 20%;
+  /* top: 5%; */
+}
+/* Features */
+
+#features {
+  background-color: #fff;
+  padding: 5% 15%;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 4%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.feature-img {
+  margin: 1rem auto;
+  color: #ef8172;
+}
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: #ef8172;
+
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 35px 20px 15px;
+}
+
+/* pricing */
+#pricing {
+  margin: 5% 5%;
+  text-align: center;
+}
+
+.pricing-cards {
+  padding: 5% 2%;
+}
+
+/* call to action  */
+
+#cta {
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+
+.social-icon {
+  padding: 15px 20px;
+}
+
+/* media query for title  */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-box {
+    position: static;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
